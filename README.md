@@ -46,15 +46,17 @@ pip install -r requirements.txt
 
 ## 🔧 Required Libraries
 
-- pandas>=1.3.0
-- numpy>=1.21.0
-- scikit-learn>=1.0.0
-- xgboost>=1.5.0
-- imbalanced-learn>=0.8.0
-- streamlit>=1.10.0
-- joblib>=1.1.0
-- matplotlib>=3.4.0
-- seaborn>=0.11.0
+```bash
+pandas>=1.3.0
+numpy>=1.21.0
+scikit-learn>=1.0.0
+xgboost>=1.5.0
+imbalanced-learn>=0.8.0
+streamlit>=1.10.0
+joblib>=1.1.0
+matplotlib>=3.4.0
+seaborn>=0.11.0
+```
 
 ## 📈 Input Parameters
 Parameter	Description	Typical Range:
