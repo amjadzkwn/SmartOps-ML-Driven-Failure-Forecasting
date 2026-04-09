@@ -167,7 +167,7 @@ Standard Scaling → Model Prediction → Risk Assessment
 |macro avg|0.66|0.95|0.73|2000|
 |weighted avg|0.98|0.93|0.95|2000|
 
-![logistic_regression_cm]()
+![logistic_regression_cm](https://github.com/amjadzkwn/SmartOps-ML-Driven-Failure-Forecasting/blob/730df22f6a1b0395404e44254c8cff1c87315867/LogisticRegression_cm.png)
 
 **Final Summary:**
 |Model|F1-Score|ROC-AUC|
