@@ -156,7 +156,7 @@ Standard Scaling → Model Prediction → Risk Assessment
 |macro avg|0.94|0.97|0.96|2000|
 |weighted avg|0.99|0.99|0.99|2000|
 
-![xgboost_cm](https://github.com/amjadzkwn/SmartOps-ML-Driven-Failure-Forecasting/blob/5de734a5093092041175196a1ee98d4a5b6b36d3/1_failure_distribution.png)
+![xgboost_cm](https://github.com/amjadzkwn/SmartOps-ML-Driven-Failure-Forecasting/blob/795daa1af741c2408852d867c9add80e217dac34/XGBoost_cm.png)
 
 **Logistic Regression:**
 | | precision | recall | f1-score | support |
@@ -167,7 +167,7 @@ Standard Scaling → Model Prediction → Risk Assessment
 |macro avg|0.66|0.95|0.73|2000|
 |weighted avg|0.98|0.93|0.95|2000|
 
-![logistic_regression_cm](https://github.com/amjadzkwn/SmartOps-ML-Driven-Failure-Forecasting/blob/5de734a5093092041175196a1ee98d4a5b6b36d3/1_failure_distribution.png)
+![logistic_regression_cm]()
 
 **Final Summary:**
 |Model|F1-Score|ROC-AUC|
