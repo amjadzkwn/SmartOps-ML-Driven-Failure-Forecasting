@@ -165,7 +165,7 @@ Calculated Power exceeds the critical threshold (usually $> 9\text{ kW}$).
 
 **5. Edge Case: Early Warning & Marginal Data**
 
-![Output 5](https://github.com/amjadzkwn/SmartOps-ML-Driven-Failure-Forecasting/blob/ed55cf1e9c1d28339c89464807954a4e62b2d8c1/Output1.png?raw=true)
+![Output 5](https://github.com/amjadzkwn/SmartOps-ML-Driven-Failure-Forecasting/blob/ceb73b191524f7f39afd1775b3ec163fc8134895/Output5.png)
 
 - **Objective:** Evaluate model sensitivity to values that are above average but haven't reached the critical failure threshold.
 - **Key Indicators:** * Moderate Tool Wear ($140\text{ min}$) and slightly elevated Torque ($48\text{ Nm}$).
