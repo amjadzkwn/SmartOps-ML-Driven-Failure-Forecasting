@@ -58,6 +58,10 @@ matplotlib>=3.4.0
 seaborn>=0.11.0
 ```
 
+## 📈 Exploratory Data Analysis (EDA)
+
+![failure_distribution](https://github.com/amjadzkwn/SmartOps-ML-Driven-Failure-Forecasting/blob/ed55cf1e9c1d28339c89464807954a4e62b2d8c1/Output1.png?raw=true)
+
 ## 📈 Input Parameters
 Parameter	Description	Typical Range:
 
@@ -165,7 +169,7 @@ To ensure the SmartOps predictive maintenance model performs accurately across d
 
 **1. Normal Operational State**
 
-![Output 1 - ML Failure Forecast](https://github.com/amjadzkwn/SmartOps-ML-Driven-Failure-Forecasting/blob/ed55cf1e9c1d28339c89464807954a4e62b2d8c1/Output1.png?raw=true)
+![Output 1](https://github.com/amjadzkwn/SmartOps-ML-Driven-Failure-Forecasting/blob/ed55cf1e9c1d28339c89464807954a4e62b2d8c1/Output1.png?raw=true)
 
 - **Objective:** Verify that the model returns a "Normal" status when all parameters stay within safe operating ranges.
 - **Key Indicators:** * Temperature Difference: 10.0K (Safe)
