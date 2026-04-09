@@ -60,7 +60,14 @@ seaborn>=0.11.0
 
 ## 📈 Exploratory Data Analysis (EDA)
 
-![failure_distribution](https://github.com/amjadzkwn/SmartOps-ML-Driven-Failure-Forecasting/blob/ed55cf1e9c1d28339c89464807954a4e62b2d8c1/Output1.png?raw=true)
+**Failure Distribution**
+![failure_distribution](https://github.com/amjadzkwn/SmartOps-ML-Driven-Failure-Forecasting/blob/5de734a5093092041175196a1ee98d4a5b6b36d3/1_failure_distribution.png)
+
+**Correlation Heatmap**
+![correlation_heatmap](https://github.com/amjadzkwn/SmartOps-ML-Driven-Failure-Forecasting/blob/5de734a5093092041175196a1ee98d4a5b6b36d3/1_failure_distribution.png)
+
+**Sensor Analysis**
+![sensor_analysis](https://github.com/amjadzkwn/SmartOps-ML-Driven-Failure-Forecasting/blob/5de734a5093092041175196a1ee98d4a5b6b36d3/1_failure_distribution.png)
 
 ## 📈 Input Parameters
 Parameter	Description	Typical Range:
