@@ -146,7 +146,7 @@ Power Output: approx 5.6 kW (Stable)
 
 **3. Power Failure (PWF)**
 
-![Output 3](https://github.com/amjadzkwn/SmartOps-ML-Driven-Failure-Forecasting/blob/ed55cf1e9c1d28339c89464807954a4e62b2d8c1/Output1.png?raw=true)
+![Output 3](https://github.com/amjadzkwn/SmartOps-ML-Driven-Failure-Forecasting/blob/8f8a0a23d3fad682e335536380e950ec73031847/Output3.png)
 
 - **Objective:** Test for imbalances between torque and rotational speed that lead to power surges.
 - **Key Indicators:** * High Speed ($2500\text{ RPM}$) + High Torque ($60.0\text{ Nm}$).
