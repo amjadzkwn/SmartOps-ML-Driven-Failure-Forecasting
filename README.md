@@ -127,6 +127,8 @@ To ensure the SmartOps predictive maintenance model performs accurately across d
 
 **1. Normal Operational State**
 
+![Output 1 - ML Failure Forecast](https://github.com/amjadzkwn/SmartOps-ML-Driven-Failure-Forecasting/blob/ed55cf1e9c1d28339c89464807954a4e62b2d8c1/Output1.png?raw=true)
+
 - **Objective:** Verify that the model returns a "Normal" status when all parameters stay within safe operating ranges.
 - **Key Indicators:** * Temperature Difference: 10.0K (Safe)
 Power Output: approx 5.6 kW (Stable)
@@ -135,12 +137,16 @@ Power Output: approx 5.6 kW (Stable)
 
 **2. Heat Dissipation Failure (HDF)**
 
+![Output 2 - ML Failure Forecast](https://github.com/amjadzkwn/SmartOps-ML-Driven-Failure-Forecasting/blob/ed55cf1e9c1d28339c89464807954a4e62b2d8c1/Output1.png?raw=true)
+
 - **Objective:** Test the model's logic for HDF, which occurs when the temperature difference between ambient air and the process is too narrow (< 8.6 K) at low speeds.
 - **Key Indicators:** * Low speed ($1300\text{ RPM}$) combined with insufficient heat release.
 - **Result:** 74.57% Failure Probability (Status: Failure Warning).
 - **Conclusion:** The model successfully detects thermal inefficiency that could lead to engine or component overheating.
 
 **3. Power Failure (PWF)**
+
+![Output 3 - ML Failure Forecast](https://github.com/amjadzkwn/SmartOps-ML-Driven-Failure-Forecasting/blob/ed55cf1e9c1d28339c89464807954a4e62b2d8c1/Output1.png?raw=true)
 
 - **Objective:** Test for imbalances between torque and rotational speed that lead to power surges.
 - **Key Indicators:** * High Speed ($2500\text{ RPM}$) + High Torque ($60.0\text{ Nm}$).
@@ -150,12 +156,16 @@ Calculated Power exceeds the critical threshold (usually $> 9\text{ kW}$).
 
 **4. Overstrain Failure (OSF)**
 
+![Output 4](https://github.com/amjadzkwn/SmartOps-ML-Driven-Failure-Forecasting/blob/ed55cf1e9c1d28339c89464807954a4e62b2d8c1/Output1.png?raw=true)
+
 - **Objective:** Validate the detection of failures caused by the interaction of tool wear and excessive mechanical load.
 - **Key Indicators:** * Critical Tool Wear ($210\text{ min}$) multiplied by high Torque ($55.0\text{ Nm}$).
 - **Result:** 70.21% Failure Probability (Status: Failure Warning).
 - **Conclusion:** The logic correctly identifies that a worn-out tool under high tension is a primary cause of physical machine breakage.
 
 **5. Edge Case: Early Warning & Marginal Data**
+
+![Output 5](https://github.com/amjadzkwn/SmartOps-ML-Driven-Failure-Forecasting/blob/ed55cf1e9c1d28339c89464807954a4e62b2d8c1/Output1.png?raw=true)
 
 - **Objective:** Evaluate model sensitivity to values that are above average but haven't reached the critical failure threshold.
 - **Key Indicators:** * Moderate Tool Wear ($140\text{ min}$) and slightly elevated Torque ($48\text{ Nm}$).
