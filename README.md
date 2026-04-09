@@ -145,7 +145,7 @@ Standard Scaling → Model Prediction → Risk Assessment
 |macro avg|0.88|0.97|0.92|2000|
 |weighted avg|0.99|0.99|0.99|2000|
 
-![random_forest_cm](https://github.com/amjadzkwn/SmartOps-ML-Driven-Failure-Forecasting/blob/5de734a5093092041175196a1ee98d4a5b6b36d3/1_failure_distribution.png)
+![random_forest_cm](https://github.com/amjadzkwn/SmartOps-ML-Driven-Failure-Forecasting/blob/9b8fa6f6269363a8871930d8d2b8b58e6d8458b5/RandomForest_cm.png)
 
 **XGBoost:**
 | | precision | recall | f1-score | support |
