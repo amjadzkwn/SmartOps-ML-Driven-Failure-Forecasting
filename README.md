@@ -137,7 +137,7 @@ Power Output: approx 5.6 kW (Stable)
 
 **2. Heat Dissipation Failure (HDF)**
 
-![Output 2 - ML Failure Forecast](https://github.com/amjadzkwn/SmartOps-ML-Driven-Failure-Forecasting/blob/ed55cf1e9c1d28339c89464807954a4e62b2d8c1/Output1.png?raw=true)
+![Output 2](https://github.com/amjadzkwn/SmartOps-ML-Driven-Failure-Forecasting/blob/3d30a1d9ffc57d1e899bf379ac7cb0637fbbe5fb/Output2.png)
 
 - **Objective:** Test the model's logic for HDF, which occurs when the temperature difference between ambient air and the process is too narrow (< 8.6 K) at low speeds.
 - **Key Indicators:** * Low speed ($1300\text{ RPM}$) combined with insufficient heat release.
@@ -146,7 +146,7 @@ Power Output: approx 5.6 kW (Stable)
 
 **3. Power Failure (PWF)**
 
-![Output 3 - ML Failure Forecast](https://github.com/amjadzkwn/SmartOps-ML-Driven-Failure-Forecasting/blob/ed55cf1e9c1d28339c89464807954a4e62b2d8c1/Output1.png?raw=true)
+![Output 3](https://github.com/amjadzkwn/SmartOps-ML-Driven-Failure-Forecasting/blob/ed55cf1e9c1d28339c89464807954a4e62b2d8c1/Output1.png?raw=true)
 
 - **Objective:** Test for imbalances between torque and rotational speed that lead to power surges.
 - **Key Indicators:** * High Speed ($2500\text{ RPM}$) + High Torque ($60.0\text{ Nm}$).
