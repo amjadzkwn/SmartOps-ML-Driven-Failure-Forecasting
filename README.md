@@ -156,7 +156,7 @@ Calculated Power exceeds the critical threshold (usually $> 9\text{ kW}$).
 
 **4. Overstrain Failure (OSF)**
 
-![Output 4](https://github.com/amjadzkwn/SmartOps-ML-Driven-Failure-Forecasting/blob/ed55cf1e9c1d28339c89464807954a4e62b2d8c1/Output1.png?raw=true)
+![Output 4](https://github.com/amjadzkwn/SmartOps-ML-Driven-Failure-Forecasting/blob/89beb0a1aa89d26b3a6105a617d7ed0baf484926/Output4.png)
 
 - **Objective:** Validate the detection of failures caused by the interaction of tool wear and excessive mechanical load.
 - **Key Indicators:** * Critical Tool Wear ($210\text{ min}$) multiplied by high Torque ($55.0\text{ Nm}$).
