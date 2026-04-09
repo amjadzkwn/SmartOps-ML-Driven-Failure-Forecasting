@@ -121,6 +121,17 @@ Standard Scaling → Model Prediction → Risk Assessment
 - Pipeline prevents data leakage between SMOTE and scaling
 - F1-score optimization balances precision and recall for imbalanced data
 
+## 📊 Model Evaluation
+
+**Random Forest**
+| | precision | recall | f1-score | support |
+|-|-----------|--------|----------|---------|
+|0|1.00|0.99|0.99|1932|
+|1|0.76|0.94|0.84|68|
+|accuracy| | |0.99|2000|
+|macro avg|0.88|0.97|0.92|2000|
+|weighted avg|0.99|0.99|0.99|2000|
+
 ## 🛠 Model Validation & Test Scenarios
 
 To ensure the SmartOps predictive maintenance model performs accurately across different industrial conditions, the following test cases were conducted using the Streamlit interface.
