@@ -70,9 +70,11 @@ Parameter	Description	Typical Range:
 ## 🎯 Risk Assessment Logic
 The system implements three risk levels based on failure probability:
 
-- 🔴 CRITICAL (p > 0.7): Immediate shutdown required
-- 🟡 WARNING (0.4 < p ≤ 0.7): Schedule preventive maintenance
-- 🟢 NORMAL (p ≤ 0.4): Continue routine monitoring
+```bash
+🔴 CRITICAL (p > 0.7): Immediate shutdown required
+🟡 WARNING (0.4 < p ≤ 0.7): Schedule preventive maintenance
+🟢 NORMAL (p ≤ 0.4): Continue routine monitoring
+```
 
 ## 🧠 Feature Engineering Logic
 The system automatically generates these derived features:
@@ -123,7 +125,7 @@ Standard Scaling → Model Prediction → Risk Assessment
 
 ## 📊 Model Evaluation
 
-**Random Forest**
+**Random Forest:**
 | | precision | recall | f1-score | support |
 |-|-----------|--------|----------|---------|
 |0|1.00|0.99|0.99|1932|
@@ -132,7 +134,7 @@ Standard Scaling → Model Prediction → Risk Assessment
 |macro avg|0.88|0.97|0.92|2000|
 |weighted avg|0.99|0.99|0.99|2000|
 
-**XGBoost**
+**XGBoost:**
 | | precision | recall | f1-score | support |
 |-|-----------|--------|----------|---------|
 |0|1.00|1.00|1.00|1932|
@@ -141,7 +143,7 @@ Standard Scaling → Model Prediction → Risk Assessment
 |macro avg|0.94|0.97|0.96|2000|
 |weighted avg|0.99|0.99|0.99|2000|
 
-**Logistic Regression**
+**Logistic Regression:**
 | | precision | recall | f1-score | support |
 |-|-----------|--------|----------|---------|
 |0|1.00|0.93|0.96|1932|
@@ -150,7 +152,7 @@ Standard Scaling → Model Prediction → Risk Assessment
 |macro avg|0.66|0.95|0.73|2000|
 |weighted avg|0.98|0.93|0.95|2000|
 
-**Final Summary**
+**Final Summary:**
 |Model|F1-Score|ROC-AUC|
 |-----|--------|-------|
 |Random Forest|0.842105|0.986177|
@@ -167,7 +169,7 @@ To ensure the SmartOps predictive maintenance model performs accurately across d
 
 - **Objective:** Verify that the model returns a "Normal" status when all parameters stay within safe operating ranges.
 - **Key Indicators:** * Temperature Difference: 10.0K (Safe)
-Power Output: approx 5.6 kW (Stable)
+    - Power Output: approx 5.6 kW (Stable)
 - **Result:** 0.32% Failure Probability (Status: Normal).
 - **Conclusion:** The system correctly identifies optimal conditions where no intervention is required.
 
