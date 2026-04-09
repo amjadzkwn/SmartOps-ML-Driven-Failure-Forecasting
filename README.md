@@ -67,7 +67,7 @@ seaborn>=0.11.0
 ![correlation_heatmap](https://github.com/amjadzkwn/SmartOps-ML-Driven-Failure-Forecasting/blob/8bc9273921533be4e9c3e95a2352f5ba86c4f34b/2_correlation_heatmap.png)
 
 **Sensor Analysis**
-![sensor_analysis](https://github.com/amjadzkwn/SmartOps-ML-Driven-Failure-Forecasting/blob/5de734a5093092041175196a1ee98d4a5b6b36d3/1_failure_distribution.png)
+![sensor_analysis](https://github.com/amjadzkwn/SmartOps-ML-Driven-Failure-Forecasting/blob/c3cec739f73b204c77bff8a1373f78aeaf6b107c/3_sensor_analysis.png)
 
 ## 📈 Input Parameters
 Parameter	Description	Typical Range:
