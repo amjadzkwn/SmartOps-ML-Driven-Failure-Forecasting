@@ -2,7 +2,7 @@
 
 An end-to-end machine learning solution for predictive maintenance in industrial operations, featuring automated feature engineering, model tuning, and a real-time prediction interface.
 
-Dataset: https://www.kaggle.com/datasets/stephanmatzka/predictive-maintenance-dataset-ai4i-2020
+**Dataset:** https://www.kaggle.com/datasets/stephanmatzka/predictive-maintenance-dataset-ai4i-2020
 
 ## 📋 Overview
 
@@ -120,6 +120,47 @@ Standard Scaling → Model Prediction → Risk Assessment
 - StratifiedKFold ensures representative validation
 - Pipeline prevents data leakage between SMOTE and scaling
 - F1-score optimization balances precision and recall for imbalanced data
+
+## 🛠 Model Validation & Test Scenarios
+
+To ensure the SmartOps predictive maintenance model performs accurately across different industrial conditions, the following test cases were conducted using the Streamlit interface.
+
+**1. Normal Operational State**
+
+**Objective:** Verify that the model returns a "Normal" status when all parameters stay within safe operating ranges.
+**Key Indicators:** * Temperature Difference: 10.0K (Safe)
+Power Output: approx 5.6 kW (Stable)
+**Result:** 0.32% Failure Probability (Status: Normal).
+**Conclusion:** The system correctly identifies optimal conditions where no intervention is required.
+
+**2. Heat Dissipation Failure (HDF)**
+
+**Objective:** Test the model's logic for HDF, which occurs when the temperature difference between ambient air and the process is too narrow (< 8.6 K) at low speeds.
+**Key Indicators:** * Low speed ($1300\text{ RPM}$) combined with insufficient heat release.
+**Result:** 74.57% Failure Probability (Status: Failure Warning).
+**Conclusion:** The model successfully detects thermal inefficiency that could lead to engine or component overheating.
+
+**3. Power Failure (PWF)**
+
+**Objective:** Test for imbalances between torque and rotational speed that lead to power surges.
+**Key Indicators:** * High Speed ($2500\text{ RPM}$) + High Torque ($60.0\text{ Nm}$).
+Calculated Power exceeds the critical threshold (usually $> 9\text{ kW}$).
+**Result:** 95.86% Failure Probability (Status: Failure Warning).
+**Conclusion:** The system identifies "Overload" conditions, triggering an immediate recommendation to stop operations to prevent permanent electrical or mechanical damage.
+
+**4. Overstrain Failure (OSF)**
+
+**Objective:** Validate the detection of failures caused by the interaction of tool wear and excessive mechanical load.
+**Key Indicators:** * Critical Tool Wear ($210\text{ min}$) multiplied by high Torque ($55.0\text{ Nm}$).
+**Result:** 70.21% Failure Probability (Status: Failure Warning).
+**Conclusion:** The logic correctly identifies that a worn-out tool under high tension is a primary cause of physical machine breakage.
+
+**5. Edge Case: Early Warning & Marginal Data**
+
+**Objective:** Evaluate model sensitivity to values that are above average but haven't reached the critical failure threshold.
+**Key Indicators:** * Moderate Tool Wear ($140\text{ min}$) and slightly elevated Torque ($48\text{ Nm}$).
+**Result:** 0.85% Failure Probability (Status: Normal).
+**Conclusion:** The model maintains a conservative approach to avoid "false positives," keeping the status as Normal but allowing the operator to monitor the upward trend in tool wear via the dashboard.
 
 ## 🔮 Future Improvements
 
