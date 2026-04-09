@@ -169,7 +169,7 @@ To ensure the SmartOps predictive maintenance model performs accurately across d
 
 - **Objective:** Verify that the model returns a "Normal" status when all parameters stay within safe operating ranges.
 - **Key Indicators:** * Temperature Difference: 10.0K (Safe)
-    - Power Output: approx 5.6 kW (Stable)
+- **Power Output:** approx 5.6 kW (Stable)
 - **Result:** 0.32% Failure Probability (Status: Normal).
 - **Conclusion:** The system correctly identifies optimal conditions where no intervention is required.
 
