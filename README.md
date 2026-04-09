@@ -132,6 +132,31 @@ Standard Scaling → Model Prediction → Risk Assessment
 |macro avg|0.88|0.97|0.92|2000|
 |weighted avg|0.99|0.99|0.99|2000|
 
+**XGBoost**
+| | precision | recall | f1-score | support |
+|-|-----------|--------|----------|---------|
+|0|1.00|1.00|1.00|1932|
+|1|0.89|0.94|0.91|68|
+|accuracy| | |0.99|2000|
+|macro avg|0.94|0.97|0.96|2000|
+|weighted avg|0.99|0.99|0.99|2000|
+
+**Logistic Regression**
+| | precision | recall | f1-score | support |
+|-|-----------|--------|----------|---------|
+|0|1.00|0.93|0.96|1932|
+|1|0.33|0.97|0.49|68|
+|accuracy| | |0.93|2000|
+|macro avg|0.66|0.95|0.73|2000|
+|weighted avg|0.98|0.93|0.95|2000|
+
+**Final Summary**
+|Model|F1-Score|ROC-AUC|
+|-----|--------|-------|
+|Random Forest|0.842105|0.986177|
+|XGBoost|0.914286|0.991300|
+|Logistic Regression|0.488889|0.988430|
+
 ## 🛠 Model Validation & Test Scenarios
 
 To ensure the SmartOps predictive maintenance model performs accurately across different industrial conditions, the following test cases were conducted using the Streamlit interface.
