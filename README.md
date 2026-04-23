@@ -136,6 +136,13 @@ Standard Scaling → Model Prediction → Risk Assessment
 
 ## 📊 Model Evaluation
 
+**Before Hyperparameter Tuning / Boosting:**
+|Model|F1-Score|ROC-AUC|
+|-----|--------|-------|
+|**Random Forest**|0.842105|0.986177|
+|**XGBoost**|0.914286|0.991300|
+|**Logistic Regression**|0.488889|0.988430|
+
 **Random Forest:**
 | | precision | recall | f1-score | support |
 |-|-----------|--------|----------|---------|
@@ -168,13 +175,6 @@ Standard Scaling → Model Prediction → Risk Assessment
 |weighted avg|0.98|0.93|0.95|2000|
 
 ![logistic_regression_cm](https://github.com/amjadzkwn/SmartOps-ML-Driven-Failure-Forecasting/blob/730df22f6a1b0395404e44254c8cff1c87315867/LogisticRegression_cm.png)
-
-**Final Summary:**
-|Model|F1-Score|ROC-AUC|
-|-----|--------|-------|
-|Random Forest|0.842105|0.986177|
-|XGBoost|0.914286|0.991300|
-|Logistic Regression|0.488889|0.988430|
 
 ## 🛠 Model Validation & Test Scenarios
 
