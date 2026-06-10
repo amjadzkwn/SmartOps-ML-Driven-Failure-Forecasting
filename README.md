@@ -239,6 +239,3 @@ Calculated Power exceeds the critical threshold (usually $> 9\text{ kW}$).
 
 ## 📝 License
 This project is developed for educational and research purposes in predictive maintenance.
-
-## 👥 Contributors
-Developed as part of SmartOps Portfolio Project - Semester 8
